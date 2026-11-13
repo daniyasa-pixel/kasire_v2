@@ -1,3 +1,6 @@
-barcode,nama_produk,variasi,merek,kategori,satuan,harga_beli,harga_jual
-8990000000001,Produk Contoh A,85g,Merek A,Makanan,pcs,2800,3500
-8990000000002,Produk Contoh B,250ml,Merek B,Minuman,botol,4000,5000
+barcode,nama_produk,harga_beli,harga_jual,kategori,satuan
+8990000000012,Mie Instan Goreng 85g,2800,3500,Mie Instan,pcs
+8990000000029,Teh Kemasan 350ml,3000,4000,Minuman,botol
+8990000000036,Gula Pasir 1 kg,15000,17000,Sembako,kg
+IMK001,Bayam,,3000,IMK,ikat
+IMK002,Kangkung,,2500,IMK,ikat
