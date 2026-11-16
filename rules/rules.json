@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "publishedAt": "2026-11-16T20:16:17+07:00",
+  "rules": [
+    {
+      "id": "dagangan_kemarin",
+      "phrases": [
+        "lihat dagangan kemarin"
+      ],
+      "action": "REPORT_SALES",
+      "period": "YESTERDAY"
+    },
+    {
+      "id": "kamera_nyalain",
+      "phrases": [
+        "tolong nyalain kamera",
+        "nyalain skener"
+      ],
+      "action": "OPEN_SCANNER"
+    },
+    {
+      "id": "harga_yupi",
+      "phrases": [
+        "cari harga yupi",
+        "berapa sih harga yupi"
+      ],
+      "action": "CHECK_PRICE",
+      "query": "Yupi"
+    },
+    {
+      "id": "bantuan_tambah_dagangan",
+      "phrases": [
+        "gimana cara menambah dagangan"
+      ],
+      "action": "REPLY",
+      "reply": "Ketik tambah produk baru, lalu isi nama, harga jual, kategori, dan satuannya. Harga beli boleh belum diketahui."
+    }
+  ]
+}
